@@ -99,8 +99,8 @@ contract PiToken is StandardToken {
         uint256 total_coins = 10000 * 10 ** uint256(18);
         balances[msg.sender] = total_coins;               // Give the creator all initial tokens. This is set to 1000 for example. If you want your initial tokens to be X and your decimal is 5, set this value to X * 100000. (CHANGE THIS)
         totalSupply = total_coins;                        // Update total supply (1000 for example) (CHANGE THIS)
-        name = "Pi";                                   // Set the name for display purposes (CHANGE THIS)
+        name = "PiTest";                                   // Set the name for display purposes (CHANGE THIS)
         decimals = 18;                                               // Amount of decimals for display purposes
-        symbol = "P";                                             // Set the symbol for display purposes
+        symbol = "π";                                             // Set the symbol for display purposes
     }
 }
